@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TalleresUAEM"
+        tools:targetApi="31">
+        <activity
+            android:name=".mcultural"
+            android:exported="false" />
+        <activity
+            android:name=".hbarro"
+            android:exported="false" />
+        <activity
+            android:name=".hpopular"
+            android:exported="false" />
+        <activity
+            android:name=".hrock"
+            android:exported="false" />
+        <activity
+            android:name=".hukelele"
+            android:exported="false" />
+        <activity
+            android:name=".htuna"
+            android:exported="false" />
+        <activity
+            android:name=".hpiano"
+            android:exported="false" />
+        <activity
+            android:name=".hletras"
+            android:exported="false" />
+        <activity
+            android:name=".hguitarra"
+            android:exported="false" />
+        <activity
+            android:name=".halientos"
+            android:exported="false" />
+        <activity
+            android:name=".hcanto"
+            android:exported="false" />
+        <activity
+            android:name=".hbailesalon"
+            android:exported="false" />
+        <activity
+            android:name=".hjazz"
+            android:exported="false" />
+        <activity
+            android:name=".hpolinesia"
+            android:exported="false" />
+        <activity
+            android:name=".hfolklor"
+            android:exported="false" />
+        <activity
+            android:name=".hbelly"
+            android:exported="false" />
+        <activity
+            android:name=".hcuentos"
+            android:exported="false" />
+        <activity
+            android:name=".hmediosdigitales"
+            android:exported="false" />
+        <activity
+            android:name=".hpoesia"
+            android:exported="false" />
+        <activity
+            android:name=".hortografia"
+            android:exported="false" />
+        <activity
+            android:name=".hnarrativa"
+            android:exported="false" />
+        <activity
+            android:name=".hredaccion"
+            android:exported="false" />
+        <activity
+            android:name=".hcine"
+            android:exported="false" />
+        <activity
+            android:name=".htocho"
+            android:exported="false" />
+        <activity
+            android:name=".htenis"
+            android:exported="false" />
+        <activity
+            android:name=".hkarate"
+            android:exported="false" />
+        <activity
+            android:name=".hvoleibol"
+            android:exported="false" />
+        <activity
+            android:name=".hfotografia"
+            android:exported="false" />
+        <activity
+            android:name=".hteatro"
+            android:exported="false" />
+        <activity
+            android:name=".hcoro"
+            android:exported="false" />
+        <activity
+            android:name=".hcontemporanea"
+            android:exported="false" />
+        <activity
+            android:name=".hfutbardas"
+            android:exported="false" />
+        <activity
+            android:name=".formulario"
+            android:exported="false" />
+        <activity
+            android:name=".hfutasociacion"
+            android:exported="false" />
+        <activity
+            android:name=".hbaloncesto"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".horarios_dep"
+            android:exported="false" />
+        <activity
+            android:name=".culartes"
+            android:exported="false" />
+        <activity
+            android:name=".culmusica"
+            android:exported="false" />
+        <activity
+            android:name=".culteatro"
+            android:exported="false" />
+        <activity
+            android:name=".culdanza"
+            android:exported="false" />
+        <activity
+            android:name=".deportivos"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
