@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="26dp"
+    tools:context=".culmusica">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/logocul"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="right"
+            android:src="@drawable/logo" />
+        <TextView
+            android:id="@+id/taller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-55dp"
+            android:text="@string/Musica"
+            android:textColor="@color/azul"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgalientos"
+                android:layout_width="match_parent"
+                android:layout_height="132dp"
+                android:layout_gravity="center"
+                android:src="@drawable/alientos" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="-80dp"
+                android:background="#C9E7ECEB"
+                android:gravity="center"
+                android:text="@string/Alientos_Madera"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="-180dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgcanto"
+                android:layout_width="match_parent"
+                android:layout_height="132dp"
+                android:layout_gravity="center"
+                android:src="@drawable/canto" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="-80dp"
+                android:background="#C9E7ECEB"
+                android:gravity="center"
+                android:text="@string/Canto"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgcuerdas"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:src="@drawable/cuerdas" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-100dp"
+                android:background="#C9E7ECEB"
+                android:gravity="center"
+                android:text="@string/Cuerdas"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="-180dp">
+            <ImageView
+                android:id="@+id/imgpopular"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:src="@drawable/popular" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-100dp"
+                android:background="#C9E7ECEB"
+                android:gravity="center"
+                android:text="@string/Canto_Popular"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/imgcoro"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:src="@drawable/coro" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-100dp"
+                android:background="#C9E7ECEB"
+                android:gravity="center"
+                android:text="@string/Coro_Universitario"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="-180dp">
+            <ImageView
+                android:id="@+id/imgguitarra"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:src="@drawable/guitarra" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-100dp"
+                android:background="#C9E7ECEB"
+                android:gravity="center"
+                android:text="@string/Guitarra"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/imglenguaje"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:src="@drawable/lenguaje" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-100dp"
+                android:background="#C9E7ECEB"
+                android:gravity="center"
+                android:text="@string/Lenguaje_Musical"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="-180dp">
+            <ImageView
+                android:id="@+id/imgpiano"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:src="@drawable/piano" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-100dp"
+                android:background="#C9E7ECEB"
+                android:gravity="center"
+                android:text="@string/Piano"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="-180dp">
+            <ImageView
+                android:id="@+id/imgorquesta"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:src="@drawable/orquesta" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-100dp"
+                android:background="#C9E7ECEB"
+                android:gravity="center"
+                android:text="@string/Orquesta"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="-180dp">
+            <ImageView
+                android:id="@+id/imgtuna"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:src="@drawable/tuna" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-100dp"
+                android:background="#C9E7ECEB"
+                android:gravity="center"
+                android:text="@string/Tuna_Universitaria"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="-180dp">
+            <ImageView
+                android:id="@+id/imgukelele"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ukelele" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-100dp"
+                android:background="#C9E7ECEB"
+                android:gravity="center"
+                android:text="@string/Ukelele"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="-180dp">
+            <ImageView
+                android:id="@+id/imgrock"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:src="@drawable/rock" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-100dp"
+                android:background="#C9E7ECEB"
+                android:gravity="center"
+                android:text="@string/Banda_Rock"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

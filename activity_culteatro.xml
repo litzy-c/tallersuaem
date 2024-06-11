@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/white"
+    tools:context=".culteatro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/logocul"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="right"
+            android:src="@drawable/logo" />
+        <TextView
+            android:id="@+id/taller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-55dp"
+            android:text="@string/Teatro_Literatura"
+            android:textColor="@color/azul"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/liteort"
+                android:layout_width="match_parent"
+                android:layout_height="132dp"
+                android:layout_gravity="center"
+                android:src="@drawable/literatura" />
+            <TextView
+                android:id="@+id/liteort2"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="-80dp"
+                android:background="#C9E7ECEB"
+                android:gravity="center"
+                android:text="@string/Literatura"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="-180dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgnarr"
+                android:layout_width="match_parent"
+                android:layout_height="132dp"
+                android:layout_gravity="center"
+                android:src="@drawable/narrativ" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="-80dp"
+                android:background="#C9E7ECEB"
+                android:gravity="center"
+                android:text="@string/Narrativa"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgreda"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:src="@drawable/red" />
+            <TextView
+                android:id="@+id/litreda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-100dp"
+                android:background="#C9E7ECEB"
+                android:gravity="center"
+                android:text="@string/Literatura_red"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="-180dp">
+            <ImageView
+                android:id="@+id/imgpoesia"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:src="@drawable/poes" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-100dp"
+                android:background="#C9E7ECEB"
+                android:gravity="center"
+                android:text="@string/Pooesia"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/imgmedios"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:src="@drawable/culturaymedios" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-100dp"
+                android:background="#C9E7ECEB"
+                android:gravity="center"
+                android:text="@string/Cultura"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="-180dp">
+            <ImageView
+                android:id="@+id/imgteatr"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:src="@drawable/teatro" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-100dp"
+                android:background="#C9E7ECEB"
+                android:gravity="center"
+                android:text="@string/Teatro"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/imgcuentos"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:src="@drawable/cuentos" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-100dp"
+                android:background="#C9E7ECEB"
+                android:gravity="center"
+                android:text="@string/Mil"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="-180dp">
+            <ImageView
+                android:id="@+id/imgcine"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:src="@drawable/cine" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-100dp"
+                android:background="#C9E7ECEB"
+                android:gravity="center"
+                android:text="@string/Cine"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>
